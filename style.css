@@ -1,3 +1,98 @@
+
+body {
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
 p {
-  color: red;
+  padding: 5px;
+}
+
+p.description {
+  font-style: italic;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+p.job-summary {
+  font-style: italic;
+}
+
+p.responsibilities {
+  font-style: italic;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 5px;
+}
+
+p.section-header {
+  font-style: italic;
+  font-size: 20px;
+  text-align: center;
+}
+
+p.select-projects {
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+p.project {
+  border: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 5px;
+}
+
+p.ts1 {
+  margin: 5px;
+  font-weight: bold;
+}
+
+p.ts2 {
+  margin: 5px;
+}
+p.education {
+  text-align: center;
+  margin: 5px;
+}
+
+p.prodev {
+  padding-left: 20px;
+  margin: 5px;
+}
+
+p.military {
+  padding-left: 20px;
+  margin: 5px;
+}
+
+table.leaderskills, th.leaderskills, td.leaderskills {
+    border: 2px solid black;
+    text-align: center;
+    padding: 5px;
+    width: 90%;
+    margin: 20px;
+}
+
+table.job-titles {
+  text-align: center;
+  font-weight: bold;
+  border: 20px;
+}
+
+table.tech-skills {
+  margin: 5px;
+}
+
+h3.employer {
+  padding-left: 2px;
+}
+
+h4.job-titles {
+  text-align: center;
 }
